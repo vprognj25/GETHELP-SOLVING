@@ -6,13 +6,14 @@ int main(){
     int n;
     cout<<"enter the target sum :- ";
     cin>>n;
-    for(int i=0;i<5;i++){
-        for(int j=1;j<=5;j++){
-            if(arr[i]+arr[j]==n){
-                cout<<"the numbers "<<arr[i]<<" and "<<arr[j]<<" add upto "<<n<<endl;
-            }   
+    for (int i = 0; i<5; i++) {
+        for (int j = (i + 1); j<=5; j++) {
+            if (arr[i] + arr[j] == n) {
+            }
         }
     }
+ 
+    return 0;
 }
 
        
